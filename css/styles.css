@@ -2,8 +2,25 @@
     background: #ffff00;
 }
 body{
-    background-color: black;
+    background-color: #3e4c63;
 }
+
+.jumbotron{
+    margin: 0px auto;
+    padding: 100px 30px;
+    color: floralwhite;
+    background: #3e4c63;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.jumbotron img{
+    height: 250px;
+    background: rgba(255,255,246,1);
+    padding-bottom: 8px;
+    
+}
+
 
 .footer{
     margin: 0px auto;
@@ -11,6 +28,7 @@ body{
     color: floralwhite;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
+    background-color: #212529;
 }
 
 address{
