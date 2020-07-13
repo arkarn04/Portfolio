@@ -1,3 +1,23 @@
 .navbar-dark{
     background: #ffff00;
 }
+body{
+    background-color: black;
+}
+
+.footer{
+    margin: 0px auto;
+    padding: 20px 0px;
+    color: floralwhite;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+address{
+    font-size: 80%;
+    margin: 0px;
+}
+
+.footer .text-center a{
+    margin-bottom: 4px;
+}
