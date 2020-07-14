@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav item"><a class="nav-link" href="#about"><span class="fa fa-user"></span> About</a></li>
-                        <li class="nav item"><a class="nav-link" href="#"><span class="fa fa-university"></span> Education</a></li>
+                        <li class="nav item"><a class="nav-link" href="#education"><span class="fa fa-university"></span> Education</a></li>
                         <li class="nav item"><a class="nav-link" href="#"><span class="fa fa-star"></span> Skills</a></li>
                         <li class="nav item"><a class="nav-link" href="#"><span class="fa fa-puzzle-piece"></span> Projects</a></li>
                         <li class="nav item"><a class="nav-link" href="#"><span class="fa fa-trophy"></span> Achievements</a></li>
@@ -58,7 +58,7 @@
         </div>
 
         <div class="container">
-            <div class="row"  id="about">
+            <div class="row" id="about">
                 <div class="col-1">
                     <div id="verticalLine"></div>
                 </div>
@@ -78,6 +78,117 @@
             </div>
         </div>
 
+        <div class="container">
+            <div id="education">
+                <div class="row">
+                    <div class="col-12" id="eduTitle">
+                        <h4>Education</h5>
+                        <hr color="floralwhite">
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#previous" role="tab" data-toggle="tab">Previous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#current" role="tab" data-toggle="tab">Current</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade" id="previous">
+                            <div class="media">
+                                <img class="d-flex mr-3 img-thumbnail align-self-center" src="imgs/davLogo.jpg" alt="DAV">
+                                <div class="media-body">
+                                    <h5>High School (2015-2019)</h5>
+                                    <a href="http://davbsebpatna.org/" target="_blank"><h4>D.A.V. Public School, <br>
+                                    B.S.E.B. Colony,New Punaichak, <br>
+                                    Patna-800023
+                                    </h4></a>
+                                </div>
+                            </div>    
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade show active" id="current">
+                            <div class="media">
+                                <img class="d-flex mr-3 img-thumbnail align-self-center" src="imgs/ismLogo.png" alt="ISM">
+                                <div class="media-body">
+                                    <h3>Integrated Master of Technology in<br> Mathematics and Computing<br> (2019-2024)</h3>
+                                    <a href="https://www.iitism.ac.in/" target="_blank"><h4>Indian Institute of Technology(Indian School of Mines)<br> Dhanbad-826004</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="grades">
+                    <div class="col-12">
+                        <h4>Academic Qualification</h4>
+                        <hr width="38%" align="left" style=" box-shadow: 0 0 10px 1px #6b82b0;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <h2>Previous</h2>
+                        <hr style="width: 45%;" color="white">
+                        <div class="table-responsive">
+                            <table class="table table-dark" id="schoolGrades">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <td><b>Standard</b></td>
+                                        <td><b>Grades</b></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>CBSE 10th</td>
+                                        <td>10 CGPA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CBSE 12th (PCM)</td>
+                                        <td>95.2 %</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h2>Current</h2>
+                        <hr style="width: 45%;" color="white">
+                        <div class="table-responsive">
+                            <table class="table table-dark" id="clgGrades">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <td>Sem 1</td>
+                                        <td>Sem 2</td>
+                                        <td>Sem 3</td>
+                                        <td>Sem 4</td>
+                                        <td>Sem 5</td>
+                                        <td>Sem 6</td>
+                                        <td>Sem 7</td>
+                                        <td>Sem 8</td>
+                                        <td>Sem 9</td>
+                                        <td>Sem 10</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>9.51</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <p style="color: floralwhite;">OGPA : 9.51</p>
+                                </tbody>
+                            </table>    
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer class="footer">
             <div class="container">
@@ -89,15 +200,15 @@
                             Behind Gayatri Bhawan,Kadam Gali<br>
                             Teen Pulwa,P.G. Line Road<br>
                             Patna-800001<br>
-                            <span class="fa fa-phone fa-lg"></span> : 9304257915<br>
-                            <span class="fa fa-envelope fa-lg"></span> : karnaryan253@gmail.com
+                            <span class="fa fa-phone fa-lg"></span> : <a href="tel:9304257915">9304257915</a><br>
+                            <span class="fa fa-envelope fa-lg"></span> : <a href="mailto:karnaryan253@gmail.com">karnaryan253@gmail.com</a>
                         </address>
                     </div>
                     <div class="col-4 col-sm-2">
                         <h4>Links</h4>
                         <ul class="list-unstyled">
-                            <li><a href="">About</a></li>
-                            <li><a href="">Education</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#education">Education</a></li>
                             <li><a href="">Skills</a></li>
                             <li><a href="">Projects</a></li>
                             <li><a href="">Experience</a></li>

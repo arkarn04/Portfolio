@@ -35,6 +35,29 @@ body{
     color: floralwhite;
 }
 
+.tab-content {
+    border-left: 2px solid #6b82b0;
+    border-right: 2px solid #6b82b0;
+    border-bottom: 2px solid #6b82b0;
+    padding: 10px; }
+
+#education{
+    margin-bottom: 25px;
+}   
+
+#education .tab-content img{
+    height: 100px;
+}
+
+#grades{
+    padding-top: 15px;
+}
+
+#schoolGrades{
+    background-color: #6b82b0;
+}
+
+
 .footer{
     margin: 0px auto;
     padding: 20px 0px;
