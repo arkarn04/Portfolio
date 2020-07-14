@@ -19,6 +19,13 @@ body{
     
 }
 
+#verticalLine{
+    height: 85%;
+    width: 3px;
+    background-color: floralwhite;
+    border-radius: 30%;
+}
+
 #card{
     margin-bottom: 60px;
     background-color: #6b82b0;
