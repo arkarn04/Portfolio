@@ -127,23 +127,29 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-6">
-                        <h2>Previous</h2>
+                        <h3 style="text-align: center;">Previous Record</h3>
                         <hr style="width: 45%;" color="white">
                         <div class="table-responsive">
                             <table class="table table-dark" id="schoolGrades">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <td><b>Standard</b></td>
-                                        <td><b>Grades</b></td>
+                                        <td><b>Exam Passed</b></td>
+                                        <td><b>Board</b></td>
+                                        <td><b>Passing Year</b></td>
+                                        <td><b>Grade</b></td>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>CBSE 10th</td>
+                                        <td>X</td>
+                                        <td>CBSE</td>
+                                        <td>2017</td>
                                         <td>10 CGPA</td>
                                     </tr>
                                     <tr>
-                                        <td>CBSE 12th (PCM)</td>
+                                        <td>XII</td>
+                                        <td>CBSE</td>
+                                        <td>2019</td>
                                         <td>95.2 %</td>
                                     </tr>
                                 </tbody>
@@ -151,10 +157,11 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
-                        <h2>Current</h2>
+                        <h3 style="text-align: center;">Current Record(GPA)</h3>
                         <hr style="width: 45%;" color="white">
                         <div class="table-responsive">
-                            <table class="table table-dark" id="clgGrades">
+                            <table class="table table-dark" id="clgGrades" data-toggle="tooltip" data-html="true"
+                            title="OGPA : 9.51"  data-placement="bottom">
                                 <thead class="thead-dark">
                                     <tr>
                                         <td>Sem 1</td>
@@ -182,12 +189,15 @@
                                         <td>-</td>
                                         <td>-</td>
                                     </tr>
-                                    <p style="color: floralwhite;">OGPA : 9.51</p>
                                 </tbody>
                             </table>    
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div>
+
         </div>
 
         <footer class="footer">
@@ -233,6 +243,11 @@
         </footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap\dist/js\bootstrap.min.js"></script>    
+    <script src="node_modules/bootstrap\dist/js\bootstrap.min.js"></script>   
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script> 
     </body>
 </html>
