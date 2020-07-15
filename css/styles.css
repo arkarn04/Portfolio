@@ -57,6 +57,33 @@ body{
     background-color: #6b82b0;
 }
 
+.skills{
+    background-color: #6b82b0;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.skills h5{
+    color: floralwhite;
+}
+.skills .card-title{
+    color: #6b82b0;
+}
+
+.skills .inner{
+    padding: 10px 20px;
+}
+
+.skills .card{
+    margin-bottom: 30px;
+}
+
+.skills img{
+    height: 100px;
+    width: 100px;
+    margin: 0px auto;
+}
+
 
 .footer{
     margin: 0px auto;
