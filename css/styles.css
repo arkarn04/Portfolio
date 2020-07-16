@@ -84,6 +84,43 @@ body{
     margin: 0px auto;
 }
 
+.project-box .card:hover{
+    box-shadow: -1px 9px 40px -12px #abc1d1;
+}
+
+.project-box{
+    margin-bottom: 15px;
+}
+
+.project-box .card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #6b82b0;
+}
+
+.project-card{
+    margin-bottom: 15px;
+}
+
+.project-box .card-body #links{
+    display: flex;
+    justify-content: space-between;
+}
+.project-box .card-body #links a{
+    border-radius: 50%;
+    background-color: #32a8a4;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head span{
+    margin-top: 20px;
+    margin-right: 25px;
+}
 
 .footer{
     margin: 0px auto;
